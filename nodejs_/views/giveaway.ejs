@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Give Away a Pet</title>
+    <script src="script7.js"></script>
+</head>
+<body>
+    <form name="giveawayForm" onsubmit="return validateForm()">
+        <label id="petType">Pet Type:</label>
+        <select name="petType" required>
+            <option value="">Select a pet</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+        </select>
+        
+        <label id="ownersName">Owner's Name:</label>
+        <input type="text" name="ownersName" required>
+        
+        <label id="ownersEmail">Owner's Email:</label>
+        <input type="email" name="ownersEmail" required>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>

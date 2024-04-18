@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Pet</title>
+  </head>
+  <body>
+    <section id="content">
+      <h2>Find a Dog/Cat</h2>
+      <form id="findPetForm">
+        <label for="petType">Pet Type:</label>
+        <select id="petType" name="petType" required>
+          <option value="">Select a pet</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+        </select>
+
+        <label for="petBreed">Breed Type:</label>
+        <select id="petBreed" name="petBreed" required>
+          <option value="">Select a breed</option>
+          <option value="dogbreed">Husky</option>
+          <option value="catbreed">Aegean</option>
+        </select>
+        <span class="error" aria-live="polite"></span>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <script src="script7.js"></script>
+  </body>
+</html>

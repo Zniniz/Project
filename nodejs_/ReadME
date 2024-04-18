@@ -1,0 +1,11 @@
+npm install express
+npm install ejs
+npm install cookie-parser
+npm install path
+
+Then to run it you need to do 
+node index.js
+
+And run 
+node Ex4.js
+for the Pet Store
